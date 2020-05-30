@@ -33,8 +33,8 @@
         
 
         <div class="content">
-            @include('home.banner')
-            @include('home.recent_countries')
+            <!-- @include('home.banner')
+            @include('home.recent_countries') -->
 
             <!-- <div class="links">
                 <a href="https://laravel.com/docs">Docs</a>
