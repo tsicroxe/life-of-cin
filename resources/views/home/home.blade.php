@@ -17,8 +17,7 @@
 </div>
 
 <style>
-
-    .jumbotron{
+    .jumbotron {
         background-image: url('https://images4.alphacoders.com/909/909591.jpg');
         background-repeat: no-repeat;
         -webkit-background-size: cover;
@@ -27,6 +26,9 @@
         background-size: cover;
         height: 600px;
         color: white;
-}
+    }
 </style>
+
+@include('home.recent_countries')
+
 @endsection
