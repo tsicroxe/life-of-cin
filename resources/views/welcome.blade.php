@@ -31,10 +31,13 @@
         @endif
 
         
+        <section id="app">
+            @yield('content')
+        </section>
 
-        <div class="content">
-            @include('home.banner')
-            @include('home.recent_countries')
+
+        <!-- <div class="content">
+
 
             <!-- <div class="links">
                 <a href="https://laravel.com/docs">Docs</a>
@@ -46,7 +49,7 @@
                 <a href="https://vapor.laravel.com">Vapor</a>
                 <a href="https://github.com/laravel/laravel">GitHub</a>
             </div> -->
-        </div>
+        <!-- </div> -->
     </div>
 
     <script src="{{ asset('js/app.js') }}"></script>

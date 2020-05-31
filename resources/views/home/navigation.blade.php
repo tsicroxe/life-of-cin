@@ -17,7 +17,7 @@
           Travel
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="/map">Country Map</a>
+          <a class="dropdown-item" href="{{ route('map') }}">Country Map</a>
           <a class="dropdown-item" href="/cuisine">Cuisine</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Something else here</a>

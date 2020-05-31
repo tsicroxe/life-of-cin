@@ -13,6 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome')->with('banner');
+// });
+
+
+Route::get('/', 'HomeController@index')->name('home');
+
+
+Route::get('/map', 'MapController@index')->name('map');
